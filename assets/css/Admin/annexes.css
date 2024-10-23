@@ -1,0 +1,14 @@
+.edit-form-cover {
+    display: flex;
+    column-gap: 1.2rem;
+}
+
+.annexe-img {
+    flex: 1 1 40%;
+}
+
+.annexe-img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}

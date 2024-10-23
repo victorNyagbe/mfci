@@ -1,0 +1,25 @@
+.menu-bar {
+    position: relative;
+    background-color: #111;
+}
+
+body {
+    background-color: #eee;
+}
+
+.content-container {
+    margin: 0 8rem;
+    padding: 2rem 1.2rem;
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 769px) {
+
+    .content-container {
+        margin: 0 1rem;
+    }
+
+    .about-container {
+        text-align: justify;
+    }
+}

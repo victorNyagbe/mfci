@@ -1,0 +1,38 @@
+.menu-bar {
+    position: relative;
+    background-color: #111;
+}
+
+.content-container {
+    margin: 2rem 8rem;
+}
+
+.leaders-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.leader-card-media img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.leader-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 769px) {
+
+    .content-container {
+        margin: 2rem 1rem;
+    }
+
+    .leaders-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

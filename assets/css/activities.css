@@ -1,0 +1,55 @@
+.menu-bar {
+    position: relative;
+    background-color: #111;
+}
+
+.content-container {
+    margin: 2rem 8rem;
+}
+
+.activities-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.7rem;
+}
+
+.activity-item {
+    position: relative;
+}
+
+.activity-image {
+    width: 100%;
+    margin: 0;
+}
+
+.activity-image img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.activity-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 .8rem .8rem .8rem;
+    background-image: linear-gradient(to top, #000, transparent 80%);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 769px) {
+
+    .content-container {
+        margin: 2rem 1rem;
+    }
+
+    .activities-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

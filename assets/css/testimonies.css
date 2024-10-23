@@ -1,0 +1,27 @@
+.testimonies_container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.testimony_item {
+    width: 100%;
+}
+
+.testimony_item iframe {
+    height: clamp(25vh, 35vh, 40vh);
+    width: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+
+    .page-header-cover h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .testimonies_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

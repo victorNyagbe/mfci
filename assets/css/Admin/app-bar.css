@@ -1,0 +1,20 @@
+.wrap-content .app-bar {
+    background-color: #EEE;
+    padding: 2px 20px;
+    margin: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-bar-links {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: inline-flex;
+}
+
+.app-bar-link-item:not(:last-of-type)::after {
+    content: "/";
+    padding-left: .5rem;
+    padding-right: .5rem;
+}

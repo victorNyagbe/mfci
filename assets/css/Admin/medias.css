@@ -1,0 +1,8 @@
+.edit-form-cover {
+    display: flex;
+    column-gap: 1.2rem;
+}
+
+.files-cover {
+    flex: 1 1 60%;
+}

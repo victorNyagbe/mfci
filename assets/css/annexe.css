@@ -1,0 +1,49 @@
+.menu-bar {
+    position: relative;
+    background-color: #111;
+}
+
+.content-container {
+    margin: 2rem 8rem;
+}
+
+.annexe-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.annexe-grid-item {
+    border: 2px solid #eee;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 4rem;
+}
+
+.annexe-image {
+    width: 100%;
+    margin: 0;
+}
+
+.annexe-image img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.annexe-grid-content {
+    margin-top: .8rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+
+    .content-container {
+        margin: 2rem 1rem;
+    }
+
+    .annexe-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,39 @@
+.actions-button {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.actions-button > * {
+    flex: 1 1 50%;
+}
+
+.button-edit, .button-edit:is(:hover, :focus) {
+    background-color: #cdb606;
+    color: black;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-family: poppins-medium;
+}
+
+.edit-form-cover {
+    display: flex;
+    column-gap: 1.3rem;
+}
+
+.banner-img {
+    flex: 1 1 40%;
+}
+
+.banner-img img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+form {
+    flex: 1 1 60%;
+}
